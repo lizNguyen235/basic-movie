@@ -87,7 +87,7 @@ searchInput.addEventListener("input", function () {
           movieOverview.textContent = movie.overview;
           movieGenre.textContent = movie.genre.join(", ");
           movieProductions.textContent = movie.productions.join(", ");
-          releaseDate.textContent = movie.releaseDate || "N/A";
+          releaseDate.textContent = movie.originRelease || "N/A";
           runtime.textContent = `${movie.runtime} minutes`;
           boxOffice.textContent = movie.boxOffice || "N/A";
           voteAverage.textContent = movie.voteAverage || "N/A";
