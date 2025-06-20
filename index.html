@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Search</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reponsive.css" />
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img class="panel-img" src="./images/tmdb.svg" alt="" srcset="" />
+          </div>
+          <div class="search-container">
+            <div class="search-field">
+              <input
+                type="text"
+                id="searchInput"
+                placeholder="Search Movie Title..."
+              />
+            </div>
+            <div id="searchResults" class="search-results"></div>
+          </div>
+        </div>
+        <div class="movie">
+          <div class="movie-img-container">
+            <img
+              class="movie-img"
+              id="movieImage"
+              src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="movie-info">
+            <h1 class="title" id="movieTitle">Interstellar</h1>
+            <span class="introduction" id="movieIntro"
+              >Mankind was born on Earth. It was never meant to die here.</span
+            >
+            <p class="overview" id="movieOverview">
+              The adventures of a group of explorers who make use of a newly
+              discovered wormhole to surpass the limitations on human space
+              travel and conquer the vast distances involved in an interstellar
+              voyage.
+            </p>
+
+            <div class="additional-details">
+              <span class="genre-list" id="movieGenre"
+                >Adventure, Drama, Science Fiction</span
+              >
+              <span class="production-list" id="movieProductions"
+                >Legendary Pictures, Syncopy, Lynda Obst Productions</span
+              >
+            </div>
+            <br />
+            <div class="detail-infor">
+              <div>
+                <span class="label">Original Release:</span>
+                <br />
+                <span class="infor" id="releaseDate">2014-11-05</span>
+              </div>
+              <div>
+                <span class="label">Running Time:</span>
+                <br />
+                <span class="infor" id="runtime">169 mins</span>
+              </div>
+              <div>
+                <span class="label">Box Office:</span>
+                <br />
+                <span class="infor" id="boxOffice">$746,606,706</span>
+              </div>
+              <div>
+                <span class="label">Vote Average:</span>
+                <br />
+                <span class="infor" id="voteAverage">8.455 / 10</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="work.js" type="module"></script>
+  </body>
+  <footer>
+    <div class="row">
+      <div class="col-12">
+        <div class="contact-item">
+          <a href=""> Designed & developed by Nguyen Vinh Hung</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-github"></i> <a href=""> View Code</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-android"></i
+          ><a href=""> Developer Google Play Store</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-apple"></i
+          ><a href=""> Developer Apple App Store</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
