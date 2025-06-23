@@ -11,6 +11,12 @@
     width: 95%;
   }
 
+  .col-12 {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+  }
+
   .movie-info,
   .movie-img {
     width: 100%;
